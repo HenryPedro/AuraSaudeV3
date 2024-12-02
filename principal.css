@@ -1,0 +1,122 @@
+/* style.css */
+:root{
+    --cor-tiffany: #81d8cf8e;
+    --cor-mentaClaro: #EAF7F2;
+    --cor-neutra: #333;
+    --cor-branca: #fff;
+    --cor-roxoEsc: #4A3A95;
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+*{
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(pexels-shvets-production-7176319.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor-branca);
+    
+    margin: 0;
+    padding: 0;
+}
+#missao-visao-valores {
+    background-color: var(--cor-mentaClaro);
+    border-color: var(--cor-tiffany);
+    border-radius: 0.4rem;
+    text-align: center;
+    text-size-adjust: auto;
+    margin: 5.2rem;
+}
+nav{
+    background-color: var(--cor-tiffany);
+    color: black;
+    font-family: var(--fonte-primaria) ;
+    text-align: center;
+
+}
+
+nav ul h1{
+    display: inline-flex;
+    list-style: none;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: center;
+}
+nav ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-flex;
+    list-style: none;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: center; 
+    align-content: center;
+    /* width: 120px; Altera o espaçamento das letras com links*/
+    margin: 15px;
+    padding: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--cor-neutra);
+}
+
+nav ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: var(--cor-roxoEsc);
+    margin-top: 15px;
+    margin-left: -38px;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: var(--cor-tiffany);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+.section {
+    margin-bottom: 40px
+}
+
+footer{    
+
+    background-color:var(--cor-tiffany);
+    color: var(--cor-preta);
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem; /* Use rem for better scalability */
+    /* Add these styles to position footer at the bottom */
+    position: fixed; /* Or 'relative' if you want in the flow of the document  */
+    bottom: 0;
+    width: 100%; /* Ensure full width */
+}
+
+footer p {
+    color: var(--cor-preta);
+    text-decoration: none;
+    margin: 0; /* Remove default paragraph margin */ 
+}
+
+/*#missao-visao-valores {
+    background-color: var(--cor-mentaClaro);
+    text-align: center;
+    text-size-adjust: auto;
+    margin: 5rem;
+}*/
