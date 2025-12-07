@@ -59,7 +59,7 @@ Foi um período intenso e repleto de aprendizados, especialmente no que tange a 
 
 Este projeto foi o resultado de um esforço conjunto e do apoio mútuo:
 
-* **Membros da Equipe:** Julia, Lucas, Pedro e Wagner
-* **Agradecimento Especial:** Gostaria de agradecer a um grande amigo e colega de equipe @Lucas-LkTecc (https://github.com/Lucas-LkTecc) que, mesmo em início de trajetória, contribuiu significativamente e foi essencial para o desenvolvimento e evolução deste site.
+* **Membros da Equipe:** Julia (apresentação), Lucas (desenvolvimento), Pedro (desenvolvimento) e Wagner (apresentação)
+* **Agradecimento Especial:** Gostaria de agradecer a um grande amigo e colega de equipe @Lucas-LkTecc (https://github.com/Lucas-LkTecc) que contribuiu significativamente para o desenvolvimento do site e foi essencial para nossa evolução.
 
 ---
